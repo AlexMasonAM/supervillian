@@ -1,0 +1,20 @@
+<h1> Good Morning</h1>
+<p> Heres the current information on superheroes today</p>
+
+<h3>Superhero Data</h3>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Alias Supposedely</th>
+    <th> Superpower</th>
+    <th> Location.....maybe</th>
+  </tr>
+<% @superheroes.each do |superhero| %>
+  <tr>
+    <td><%= superhero.name %></td>
+    <td><%= superhero.alias %></td>
+    <td><%= superhero.superpowers %></td>
+    <td><%= superhero.location %></td>
+  </tr>
+<% end %>
+</table>
