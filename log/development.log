@@ -3623,3 +3623,726 @@ Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 
 
 
 Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for 127.0.0.1 at 2015-01-14 12:15:39 -0800
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 4.0550ms
+
+
+Started GET "/" for ::1 at 2015-01-14 14:55:57 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (13.9ms)
+Completed 200 OK in 84ms (Views: 67.2ms)
+
+
+Started GET "/supeheroes" for ::1 at 2015-01-14 14:56:06 -0800
+
+ActionController::RoutingError (No route matches [GET] "/supeheroes"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (33.6ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (200.4ms)
+
+
+Started GET "/supervillian" for ::1 at 2015-01-14 14:56:33 -0800
+
+ActionController::RoutingError (No route matches [GET] "/supervillian"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.9ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (135.0ms)
+
+
+Started GET "/superheroes" for ::1 at 2015-01-14 14:56:49 -0800
+Processing by SuperheroesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 8.0840ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 7.9210ms
+  Rendered superheroes/index.html.erb within layouts/application (313.2ms)
+Completed 500 Internal Server Error in 416ms
+
+ActionView::Template::Error (Could not connect to a primary node for replica set #<Moped::Cluster:70104412623660 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+     9:     <th> Superpower</th>
+    10:     <th> Location.....maybe</th>
+    11:   </tr>
+    12: <% @superheroes.each do |superhero| %>
+    13:   <tr>
+    14:     <td><%= superhero.name %></td>
+    15:     <td><%= superhero.alias %></td>
+  app/views/superheroes/index.html.erb:12:in `_app_views_superheroes_index_html_erb__4135123234728687677_70104409496180'
+
+
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.9ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /usr/local/opt/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (125.6ms)
+
+
+Started GET "/superheroes" for ::1 at 2015-01-14 14:57:35 -0800
+Processing by SuperheroesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 21.8250ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7120ms
+  Rendered superheroes/index.html.erb within layouts/application (53.9ms)
+Completed 200 OK in 1240ms (Views: 1193.3ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 14:57:37 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 14:57:37 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 14:57:37 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 14:57:37 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 14:57:37 -0800
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1730ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f473416c651657000000'), "name"=>"Overhold", "alias"=>"Aglae  Crooks", "superpowers"=>"mega lightning brain", "location"=>"Adahtown"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 1646.5530ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657010000'), "name"=>"Lotlux", "alias"=>"Dameon  Corwin", "superpowers"=>"epic telekenisis ears", "location"=>"Port Elroy"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.5580ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657020000'), "name"=>"Rank", "alias"=>"Malcolm  Kemmer", "superpowers"=>"mega infernal legs", "location"=>"West Guadalupe"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4210ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657030000'), "name"=>"Fixflex", "alias"=>"Tiara  Waters", "superpowers"=>"mega necromancy brain", "location"=>"Johanhaven"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4140ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657040000'), "name"=>"Fix San", "alias"=>"Giovani  Thiel", "superpowers"=>"super necromancy ears", "location"=>"Padbergfurt"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3940ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657050000'), "name"=>"Overhold", "alias"=>"Garfield  Hermiston", "superpowers"=>"mega water head", "location"=>"Karleyville"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3970ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657060000'), "name"=>"Overhold", "alias"=>"Princess  Jacobs", "superpowers"=>"super fire ears", "location"=>"Dickinsonbury"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4400ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657070000'), "name"=>"Y-Solowarm", "alias"=>"Grayce  Volkman", "superpowers"=>"epic fire legs", "location"=>"West Cara"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4700ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657080000'), "name"=>"Sonair", "alias"=>"Berniece  Lockman", "superpowers"=>"epic infernal ears", "location"=>"West Ward"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4340ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657090000'), "name"=>"Mat Lam Tam", "alias"=>"Hal  Wisozk", "superpowers"=>"mega infernal brain", "location"=>"New Carmella"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3930ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516570a0000'), "name"=>"Lotstring", "alias"=>"Trycia  Keeling", "superpowers"=>"epic fire spirit", "location"=>"Lake Kamrynmouth"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4150ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516570b0000'), "name"=>"Otcom", "alias"=>"Hailee  Walsh", "superpowers"=>"mega fire eyes", "location"=>"Delphineton"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3530ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516570c0000'), "name"=>"Mat Lam Tam", "alias"=>"Maynard  Wisozk", "superpowers"=>"mega lightning spirit", "location"=>"Murraymouth"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3480ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516570d0000'), "name"=>"Job", "alias"=>"Mason  Lueilwitz", "superpowers"=>"super holy brain", "location"=>"Kelleyland"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3360ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516570e0000'), "name"=>"Temp", "alias"=>"Viola  Hermiston", "superpowers"=>"super thunder head", "location"=>"South Peter"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3680ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516570f0000'), "name"=>"Sub-Ex", "alias"=>"Kenna  Hirthe", "superpowers"=>"mega telekenisis spirit", "location"=>"Dejonville"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4290ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657100000'), "name"=>"Alpha", "alias"=>"Rhoda  Thompson", "superpowers"=>"super laser legs", "location"=>"Port Lexi"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4080ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657110000'), "name"=>"Holdlamis", "alias"=>"Austin  Nolan", "superpowers"=>"super lightning ears", "location"=>"East Raphael"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4310ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657120000'), "name"=>"Opela", "alias"=>"Marcellus  Kohler", "superpowers"=>"epic necromancy spirit", "location"=>"Antoniomouth"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4080ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657130000'), "name"=>"Sonsing", "alias"=>"Harrison  Fritsch", "superpowers"=>"mega psychic legs", "location"=>"Reynoldsside"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3640ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657140000'), "name"=>"Alphazap", "alias"=>"Kiara  Murray", "superpowers"=>"epic ground spirit", "location"=>"Port Tomside"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3570ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657150000'), "name"=>"Bigtax", "alias"=>"Aubree  Abbott", "superpowers"=>"epic ground eyes", "location"=>"Mackenzieland"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3680ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657160000'), "name"=>"Hatity", "alias"=>"Domenica  Paucek", "superpowers"=>"epic thunder hands", "location"=>"North Hassiestad"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3770ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657170000'), "name"=>"Konklux", "alias"=>"Sydni  Stehr", "superpowers"=>"epic infernal ears", "location"=>"Revaberg"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3690ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657180000'), "name"=>"Job", "alias"=>"Marcellus  Bogisich", "superpowers"=>"mega necromancy spirit", "location"=>"South Kelsiefort"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3980ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657190000'), "name"=>"Rank", "alias"=>"Ladarius  Willms", "superpowers"=>"super water hands", "location"=>"New Feltonland"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4450ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516571a0000'), "name"=>"Job", "alias"=>"Rowena  Dicki", "superpowers"=>"epic ice eyes", "location"=>"Michelport"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4230ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516571b0000'), "name"=>"Rank", "alias"=>"Gail  Wyman", "superpowers"=>"mega thunder eyes", "location"=>"South Skye"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3620ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516571c0000'), "name"=>"Ventosanzap", "alias"=>"Dorcas  Kohler", "superpowers"=>"super laser legs", "location"=>"Kreigertown"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3300ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516571d0000'), "name"=>"Rank", "alias"=>"Haven  Lemke", "superpowers"=>"mega fire ears", "location"=>"Hayesport"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3980ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516571e0000'), "name"=>"Temp", "alias"=>"Megane  Veum", "superpowers"=>"super speed brain", "location"=>"Lupefurt"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3740ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516571f0000'), "name"=>"Sonair", "alias"=>"Sabina  Kozey", "superpowers"=>"mega necromancy eyes", "location"=>"Labadiefurt"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 6.8740ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657200000'), "name"=>"Fixflex", "alias"=>"Elta  Hammes", "superpowers"=>"super water hands", "location"=>"East Margarett"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4640ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657210000'), "name"=>"It", "alias"=>"Ashleigh  Nicolas", "superpowers"=>"mega necromancy legs", "location"=>"New Lera"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4500ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657220000'), "name"=>"Opela", "alias"=>"Parker  Rath", "superpowers"=>"mega holy spirit", "location"=>"Parkerstad"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4210ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657230000'), "name"=>"Matsoft", "alias"=>"Martina  Gislason", "superpowers"=>"epic telekenisis legs", "location"=>"Collierborough"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3910ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657240000'), "name"=>"Hatity", "alias"=>"Felix  Macejkovic", "superpowers"=>"mega thunder head", "location"=>"Margarettemouth"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3490ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657250000'), "name"=>"Viva", "alias"=>"Edwina  Stanton", "superpowers"=>"epic necromancy ears", "location"=>"Schultzmouth"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3730ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657260000'), "name"=>"Otcom", "alias"=>"Nathanial  Simonis", "superpowers"=>"super psychic eyes", "location"=>"West Colby"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3580ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657270000'), "name"=>"Span", "alias"=>"Norwood  Legros", "superpowers"=>"super ground head", "location"=>"Lake Jefferyshire"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3990ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657280000'), "name"=>"Bamity", "alias"=>"Bria  Grant", "superpowers"=>"super necromancy ears", "location"=>"Huelsstad"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4230ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657290000'), "name"=>"Zathin", "alias"=>"Cordelia  Beer", "superpowers"=>"mega speed ears", "location"=>"Tillmanmouth"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.4340ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516572a0000'), "name"=>"Temp", "alias"=>"Chance  Kirlin", "superpowers"=>"epic necromancy ears", "location"=>"Lake Juvenalbury"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3980ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516572b0000'), "name"=>"Voltsillam", "alias"=>"Avis  Watsica", "superpowers"=>"epic necromancy hands", "location"=>"Port Lindaside"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3820ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516572c0000'), "name"=>"Trippledex", "alias"=>"Demond  Dare", "superpowers"=>"super laser hands", "location"=>"Beckerport"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3760ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516572d0000'), "name"=>"Fix San", "alias"=>"Marshall  Douglas", "superpowers"=>"mega ground spirit", "location"=>"Alverafurt"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3970ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516572e0000'), "name"=>"Span", "alias"=>"Korbin  Nolan", "superpowers"=>"super necromancy hands", "location"=>"Leonardland"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3690ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c6516572f0000'), "name"=>"Konklab", "alias"=>"Kaley  Gaylord", "superpowers"=>"mega thunder ears", "location"=>"Jenkinsside"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3380ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657300000'), "name"=>"Biodex", "alias"=>"Kennedy  Skiles", "superpowers"=>"super infernal eyes", "location"=>"North Mazie"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3250ms
+  MOPED: 127.0.0.1:27017 INSERT       database=supervillian_development collection=superheros documents=[{"_id"=>BSON::ObjectId('54b6f474416c651657310000'), "name"=>"Fintone", "alias"=>"Margarette  Stehr", "superpowers"=>"mega holy ears", "location"=>"North Montana"}] flags=[]
+                         COMMAND      database=supervillian_development command={:getlasterror=>1, :w=>1} runtime: 0.3560ms
+
+
+Started GET "/superheroes" for ::1 at 2015-01-14 14:58:00 -0800
+Processing by SuperheroesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7120ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 12.0480ms
+  Rendered superheroes/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 75ms (Views: 73.7ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 14:58:00 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 14:58:00 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 14:58:00 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 14:58:00 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 14:58:00 -0800
+
+
+Started GET "/superheroes" for ::1 at 2015-01-14 15:01:35 -0800
+Processing by SuperheroesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4070ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.9360ms
+  Rendered superheroes/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 53ms (Views: 51.6ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:01:36 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:01:36 -0800
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:01:36 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:01:36 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:01:36 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=Fix&commit=search" for ::1 at 2015-01-14 15:01:43 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Fix", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5650ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1540ms
+  Rendered superheroes/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 46ms (Views: 45.7ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:01:43 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:01:43 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:01:43 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:01:43 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:01:43 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=Fix&commit=search" for ::1 at 2015-01-14 15:02:02 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Fix", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.9150ms
+  Rendered superheroes/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 53ms (Views: 51.5ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:02:02 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:02:02 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:02:02 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:02:02 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:02:02 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=Lotlux&commit=search" for ::1 at 2015-01-14 15:02:13 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Lotlux", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.4620ms
+  Rendered superheroes/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 47ms (Views: 45.8ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:02:13 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:02:13 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:02:13 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:02:13 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:02:13 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=Lotlux&commit=search" for ::1 at 2015-01-14 15:04:37 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Lotlux", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5760ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>"Lotlux"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4240ms
+  Rendered superheroes/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 102ms (Views: 86.4ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:04:38 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:04:38 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:04:38 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:04:38 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:04:38 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=Lotlux&commit=search" for ::1 at 2015-01-14 15:04:46 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Lotlux", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4760ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>"Lotlux"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4950ms
+  Rendered superheroes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 46ms (Views: 45.4ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:04:46 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:04:46 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:04:46 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:04:46 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:04:46 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=&commit=search" for ::1 at 2015-01-14 15:04:49 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>""} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4680ms
+  Rendered superheroes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 47ms (Views: 46.1ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:04:49 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:04:49 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:04:49 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:04:49 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:04:49 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=&commit=search" for ::1 at 2015-01-14 15:04:51 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4490ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>""} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5060ms
+  Rendered superheroes/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 48ms (Views: 46.8ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:04:52 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:04:52 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:04:52 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:04:52 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:04:52 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=&commit=search" for ::1 at 2015-01-14 15:05:15 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6330ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>""} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5340ms
+  Rendered superheroes/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 48ms (Views: 46.8ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:05:15 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:05:15 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:05:15 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:05:15 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:05:15 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=viva&commit=search" for ::1 at 2015-01-14 15:05:18 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"viva", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>"viva"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4350ms
+  Rendered superheroes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 39.6ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:05:18 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:05:18 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:05:18 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:05:18 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:05:18 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=&commit=search" for ::1 at 2015-01-14 15:05:20 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6400ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>""} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4000ms
+  Rendered superheroes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 51ms (Views: 49.5ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:05:20 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:05:20 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:05:20 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:05:20 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:05:20 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=&commit=search" for ::1 at 2015-01-14 15:05:43 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>""} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4490ms
+  Rendered superheroes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 38.6ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:05:44 -0800
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:05:44 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:05:44 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:05:44 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:05:44 -0800
+
+
+Started GET "/superheroes" for ::1 at 2015-01-14 15:05:50 -0800
+Processing by SuperheroesController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.3950ms
+  Rendered superheroes/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 50ms (Views: 49.8ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:05:51 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:05:51 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:05:51 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:05:51 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:05:51 -0800
+
+
+Started GET "/superheroes" for ::1 at 2015-01-14 15:07:22 -0800
+Processing by SuperheroesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5400ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2780ms
+  Rendered superheroes/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 58ms (Views: 50.4ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:07:22 -0800
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:07:22 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:07:22 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:07:22 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:07:23 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=Otcom&commit=search" for ::1 at 2015-01-14 15:07:31 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Otcom", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4580ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>"Otcom"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4340ms
+  Rendered superheroes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 38ms (Views: 37.5ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:07:31 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:07:31 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:07:31 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:07:31 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:07:31 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=&commit=search" for ::1 at 2015-01-14 15:07:35 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4880ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>""} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4030ms
+  Rendered superheroes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 49ms (Views: 48.5ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:07:35 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:07:35 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:07:35 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:07:35 -0800
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:07:35 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=&commit=search" for ::1 at 2015-01-14 15:07:38 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>""} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4980ms
+  Rendered superheroes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 44ms (Views: 42.9ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:07:38 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:07:38 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:07:38 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:07:38 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:07:38 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=+&commit=search" for ::1 at 2015-01-14 15:07:53 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>" ", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1630ms
+  Rendered superheroes/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 74ms (Views: 73.6ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:07:54 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:07:54 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:07:54 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:07:54 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:07:54 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=Overhold&commit=search" for ::1 at 2015-01-14 15:08:07 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Overhold", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4750ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={"name"=>"Overhold"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0060ms
+  Rendered superheroes/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 67ms (Views: 60.0ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:08:07 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:08:07 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:08:07 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:08:07 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:08:07 -0800
+
+
+Started GET "/superheroes?utf8=%E2%9C%93&search=&commit=search" for ::1 at 2015-01-14 15:08:10 -0800
+Processing by SuperheroesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"search"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6570ms
+  MOPED: 127.0.0.1:27017 QUERY        database=supervillian_development collection=superheros selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2700ms
+  Rendered superheroes/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 44ms (Views: 40.8ms)
+
+
+Started GET "/assets/application-d67b6653be69e67e9b8df07708bd2a14.css?body=1" for ::1 at 2015-01-14 15:08:10 -0800
+
+
+Started GET "/assets/application-87bd87b2b6448711535da63878431bdf.js?body=1" for ::1 at 2015-01-14 15:08:10 -0800
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-14 15:08:10 -0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-14 15:08:10 -0800
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-14 15:08:10 -0800

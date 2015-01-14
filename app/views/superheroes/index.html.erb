@@ -1,6 +1,11 @@
 <h1> Good Morning</h1>
 <p> Heres the current information on superheroes today</p>
 
+<%= form_tag('/superheroes', method: "get") do %>
+  <h4>Find a Superhero by name: <%= text_field_tag :search %></h4>
+  <%= submit_tag "search" %>
+<% end %>
+
 <h3>Superhero Data</h3>
 <table>
   <tr>
